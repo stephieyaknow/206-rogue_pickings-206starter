@@ -230,6 +230,7 @@ footer span {
 		display: block;
 		float: left;
 		padding: 2em;
+		border: none;
 	}
 
 	header nav {
