@@ -185,9 +185,29 @@ footer span {
 
 @media all and (min-width: 1200px) {
 
+	.container {
+		max-width: 1200px;
+	}
+
+	header {
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 3px solid #77a466;
+	}
+
+	header h1, header nav {
+		width: 50%;
+	}
+
+	header nav {
+		text-align: right;
+		border: none;
+	}
+
 	header nav ul {
 		display: flex;
 		justify-content: space-between;
-  }
+  	}
 
 }
