@@ -173,7 +173,11 @@ footer span {
 	.section-one,
 	.section-two,
 	.section-three {
-		width: 33%;
+		flex-basis: 30%;
+	}
+
+	.section-two {
+		padding: 20px 0;
 	}
 }
 
